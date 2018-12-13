@@ -2,8 +2,6 @@
 A python class that builds upon redis-py for item-level expiration
 functionality. Released with permission from Mkit https://mkit.com
 
-***REPOSITORY HAS MOVED TO https://github.com/MkitGlobal/deadset ****
-
 Original ideas:
 
 # https://stackoverflow.com/questions/17060672/ttl-for-a-set-member

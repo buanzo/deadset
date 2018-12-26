@@ -11,8 +11,7 @@
 # The class might implement key-ization of added items for additional
 # data storage needs, but today is easier to separate the functionality.
 #
-# Author: Arturo 'Buanzo' Busleiman <busleiman at mkit dot com>
-# Copyright 2017 Mkit Global https://mkit.com
+# Author: Arturo 'Buanzo' Busleiman <buanzo@buanzo.com.ar>
 #
 # References:
 # * https://stackoverflow.com/questions/17060672/ttl-for-a-set-member

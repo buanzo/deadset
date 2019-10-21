@@ -1,6 +1,5 @@
 # deadset
-A python class that builds upon redis-py for item-level expiration
-functionality. Released with permission from Mkit https://mkit.com
+A python class that provides item level expiration functionality for redis.
 
 Original ideas:
 

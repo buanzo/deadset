@@ -1,0 +1,9 @@
+Make sure to delete dist/* files to avoid issues uploading:
+
+   find dist -type f -delete
+
+Now we build and upload:
+
+   python3 setup.py sdist bdist_wheel
+   python3 -m twine upload --repository-url https://upload.pypi.org/legacy/ dist/*
+

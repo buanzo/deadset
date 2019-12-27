@@ -26,6 +26,7 @@ class DeadSet():
         if type(default_expire) is datetime.timedelta:
             self.default_expire = default_expire
         else:
+            print('You need to specify default_expire for DeadSet init')
             raise ValueError
         if rdb is None:
             self.redis = redis.StrictRedis(host="localhost", port=6379, db=0,
